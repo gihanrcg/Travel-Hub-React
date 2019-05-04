@@ -1,0 +1,42 @@
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 25%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {
+    color: crimson;
+    font-weight: bold;
+}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li a.siteName {
+    color: coral;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    ul.topnav li.right,
+    ul.topnav li {float: none;}
+}
