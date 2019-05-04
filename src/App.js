@@ -14,6 +14,9 @@ function App() {
 
     return (
         <div className="App">
+            <h1 align="center"> Website by : Gihan Saranga Siriwardhana </h1>
+            <h1 align="center"> Contact +94 (0) 714914133 </h1>
+
             <Header/>
             <MenuCardBar/>
             <ImageWithTextBar/>
