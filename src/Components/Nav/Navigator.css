@@ -1,17 +1,17 @@
 body {margin: 0;}
 
-ul.topnav {
+ul.topnavBar {
     list-style-type: none;
-
     padding: 0;
     overflow: hidden;
-    background-color: #fff;
+    /*background-color: #fff;*/
     margin-left: 25%;
+
 }
 
-ul.topnav li {float: left;}
+ul.topnavBar li {float: left;}
 
-ul.topnav li a {
+ul.topnavBar li a {
     display: block;
     color: #333;
     text-align: center;
@@ -19,16 +19,16 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {
+ul.topnavBar li a:hover:not(.active) {
     color: crimson;
     font-weight: bold;
 }
 
-ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnavBar li a.active {background-color: #4CAF50;}
 
-ul.topnav li.right {float: right;}
+ul.topnavBar li.right {float: right;}
 
-ul.topnav li a.siteName {
+ul.topnavBar li a.siteName {
     color: coral;
     font-size: large;
     font-weight: bold;

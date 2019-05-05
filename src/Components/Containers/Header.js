@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigator from  '../Nav/Navigator';
+
 import SlideShow from '../SlideShow/SlideShow';
 
 function Header(){
@@ -8,7 +8,8 @@ function Header(){
     return(
         <div>
             {/*<marquee>TRAVELLERS' HUB</marquee>*/}
-            <Navigator/>
+
+
 
             <SlideShow/>
         </div>

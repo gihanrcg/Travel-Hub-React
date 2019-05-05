@@ -28,7 +28,7 @@ class ImageWithTextBar extends Component{
         }
 
         return (
-            <div >
+            <div align="center">
                 <br/><br/><br/><br/>
                 <table border="0" style={tableStyles} cellPadding="20px"  align="center">
                     <tr>

@@ -1,9 +1,10 @@
 import React from 'react';
-import { Zoom } from 'react-slideshow-image';
+import {Zoom} from 'react-slideshow-image';
 
 import img1 from './1.jpg';
 import img2 from './2.jpg';
 import img3 from './3.jpg';
+import './slideStyles.css'
 
 const images = [
     img1,
@@ -22,14 +23,25 @@ const zoomOutProperties = {
 
 const Slideshow = () => {
     return (
-        <Zoom {...zoomOutProperties}>
-            {
-                images.map((each, index) => <img key={index} style={{width: "100%",height:'400px'}} src={each}  alt="test"/>)
-            }
-        </Zoom>
+        <div align="center" >
+            <div className="slide-container-inner">
+                <p className="slideshow-inner-main-text">NEVER STOP EXPLORING</p>
+                <button className="button button2">join with us</button>
+            </div>
+            <div className="mock"></div>
+            <Zoom {...zoomOutProperties}>
+                {
+                    images.map((each, index) => <img key={index} style={{width: "100%", height: '550px'}} src={each}
+                                                     alt="test"/>)
+
+                }
+
+            </Zoom>
+
+
+        </div>
     )
 }
-
 
 
 export default Slideshow;

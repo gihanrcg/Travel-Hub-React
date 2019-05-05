@@ -16,14 +16,16 @@ class ParalaxContainer extends Component {
 
                     <div className="parallax-container" style={{height: '500px'}} align="center">
                         <div className="parallax-container-inner">
+                            <h2 style={{color:'white'}}>FEEL THE DIFFERENCE</h2>
+                            <h2 style={{color:'white'}}>ENJOY LIFE</h2>
                             <button className="button button2">join with us</button>
                         </div>
                     </div>
                 </div>
 
-                <div style={{height: '1000px'}}>
+                {/*<div style={{height: '1000px'}}>*/}
 
-                </div>
+                {/*</div>*/}
 
                 <div className="parallax"></div>
 

@@ -32,6 +32,7 @@ class MenuCardBar extends Component {
         }
 
         return (
+            <div align="center">
             <table style={tableStyles} cellSpacing="20px" align="center">
                 <tr>
                     <td><MenuCard  properties={mCard1}/></td>
@@ -41,7 +42,7 @@ class MenuCardBar extends Component {
                 </tr>
 
             </table>
-
+            </div>
         )
 
     }
